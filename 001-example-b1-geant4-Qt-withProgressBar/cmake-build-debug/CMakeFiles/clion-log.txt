@@ -1,50 +1,25 @@
-/snap/clion/169/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=/opt/Qt/5.15.2/gcc_64/lib/cmake -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt
+/snap/clion/169/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar
 --> Searching source files....
-Found: /home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/MainWindow.cpp;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/main.cpp;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4DetectorConstruction.cc;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4PrimaryGeneratorAction.cc;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4RunAction.cc;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aActionInitialization.cc;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aEventAction.cc;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aSteppingAction.cc
+Found: /home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/MainWindow.cpp;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/main.cpp;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4DetectorConstruction.cc;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4PrimaryGeneratorAction.cc;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4RunAction.cc;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4aActionInitialization.cc;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4aEventAction.cc;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4aSteppingAction.cc
 --> Searching header files....
-Found: /home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/MainWindow.h;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4Analysis.hh;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4DetectorConstruction.hh;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4PrimaryGeneratorAction.hh;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4RunAction.hh;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aActionInitialization.hh;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aEventAction.hh;/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aSteppingAction.hh
+Found: /home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/MainWindow.h;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4Analysis.hh;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4DetectorConstruction.hh;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4PrimaryGeneratorAction.hh;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4RunAction.hh;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4aActionInitialization.hh;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4aEventAction.hh;/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/src/simulation/B4aSteppingAction.hh
 --> Searching UI files....
-Found: /home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/uis/mainwindow.ui
---> Printing QT5 Modules
-Qt5               : /opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5
-Qt5Core           : /opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core
-Qt5Widgets        : /opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets
-Qt5Gui            : /opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui
-Qt5OpenGL         : /opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5OpenGL
---> Printing Qt5 Libraries
-Qt5::Core Lib    : /opt/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2
-Qt5::Widgets Lib : /opt/Qt/5.15.2/gcc_64/lib/libQt5Widgets.so.5.15.2
-Qt5::Gui Lib     : /opt/Qt/5.15.2/gcc_64/lib/libQt5Gui.so.5.15.2
--- Configuring done
-CMake Warning (dev) in CMakeLists.txt:
-  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
-  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
-  command to set the policy and suppress this warning.
+Found: /home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/uis/mainwindow.ui
+CMake Error at CMakeLists.txt:42 (find_package):
+  By not providing "FindQt5.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Qt5", but
+  CMake did not find one.
 
-  For compatibility, CMake is excluding the header file(s):
+  Could not find a package configuration file provided by "Qt5" with any of
+  the following names:
 
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4Analysis.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4DetectorConstruction.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4PrimaryGeneratorAction.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4RunAction.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aActionInitialization.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aEventAction.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aSteppingAction.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aSteppingAction.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4RunAction.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aActionInitialization.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4aEventAction.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4DetectorConstruction.hh"
-    "/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/src/simulation/B4PrimaryGeneratorAction.hh"
+    Qt5Config.cmake
+    qt5-config.cmake
 
-  from processing by AUTOMOC and AUTOUIC.  If any of the files should be
-  processed, set CMP0100 to NEW.  If any of the files should not be
-  processed, explicitly exclude them by setting the source file property
-  SKIP_AUTOGEN:
+  Add the installation prefix of "Qt5" to CMAKE_PREFIX_PATH or set "Qt5_DIR"
+  to a directory containing one of the above files.  If "Qt5" provides a
+  separate development package or SDK, be sure it has been installed.
 
-    set_property(SOURCE file.hh PROPERTY SKIP_AUTOGEN ON)
 
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
--- Generating done
--- Build files have been written to: /home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/cmake-build-debug
+-- Configuring incomplete, errors occurred!
+See also "/home/hakan/CLionProjects/geant4-embed-qt-works/001-example-b1-geant4-Qt-withProgressBar/cmake-build-debug/CMakeFiles/CMakeOutput.log".
