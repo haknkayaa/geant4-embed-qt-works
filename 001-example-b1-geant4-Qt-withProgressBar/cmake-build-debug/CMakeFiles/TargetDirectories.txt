@@ -1,0 +1,4 @@
+/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/cmake-build-debug/CMakeFiles/project.dir
+/home/hakan/CLionProjects/Qt-OpenCASCADE-Projects/EDIT-geant4-Qt/cmake-build-debug/CMakeFiles/project_autogen.dir
